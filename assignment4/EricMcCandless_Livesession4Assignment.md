@@ -48,7 +48,7 @@ install.packages("fivethirtyeight",repos = "http://cran.us.r-project.org")
 ## package 'fivethirtyeight' successfully unpacked and MD5 sums checked
 ## 
 ## The downloaded binary packages are in
-## 	C:\Users\emccandless\AppData\Local\Temp\RtmpUDyrRB\downloaded_packages
+## 	C:\Users\emccandless\AppData\Local\Temp\Rtmp6dhfBr\downloaded_packages
 ```
 
 ### b. In the listing of Data sets in package 'fivethirtyeight,' assign the eighteenth data set to an object 'df.'
@@ -178,7 +178,7 @@ barplot(major_count$freq, main="Freq of Major Categories from FiveThirtyEight Da
 
 
 ```r
-write.csv(major_count, file="major_count.csv", row.names=FALSE)
+write.csv(df, file="df.csv", row.names=FALSE)
 ```
 
 ## 3. Codebook (30 points):
@@ -197,6 +197,4 @@ write.csv(major_count, file="major_count.csv", row.names=FALSE)
 
 ## 4. Swirl (10 points): Complete Module 15 in the R Programming course of Swirl. Copy your code/output to a separate .txt file. It does not need to be included in your RMarkdown file. The grader has requested at minimum to show the 90%-100% progress bar for the module and what output you had for it.
 ## a. Complete "15: Graphics Basics"# 
-
-### Please see text file.
 

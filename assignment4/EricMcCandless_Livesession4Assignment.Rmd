@@ -72,7 +72,7 @@ barplot(major_count$freq, main="Freq of Major Categories from FiveThirtyEight Da
 ### d. Write the fivethirtyeight data to a csv file. Make sure that it does not have row labels.
 
 ```{r save_csv, echo=TRUE}
-write.csv(major_count, file="major_count.csv", row.names=FALSE)
+write.csv(df, file="df.csv", row.names=FALSE)
 ```
 
 ## 3. Codebook (30 points):
